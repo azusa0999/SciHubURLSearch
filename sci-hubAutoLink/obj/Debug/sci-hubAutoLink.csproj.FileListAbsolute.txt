@@ -1,0 +1,12 @@
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.exe.config
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.exe
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.pdb
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci_hubAutoLink.ScihubVal.resources
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci_hubAutoLink.Properties.Resources.resources
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.csproj.GenerateResource.Cache
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.exe
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.pdb
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.exe.manifest
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.application
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.exe.manifest
+E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.application
