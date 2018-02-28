@@ -42,17 +42,35 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sci-hubAutoLink.exe" size="13768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sci-hubAutoLink.exe" size="102856">
       <assemblyIdentity name="sci-hubAutoLink" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>F6WnMyJOUuyTUx9Agtj8Phe6slddncr1gRoy0aU7gak=</dsig:DigestValue>
+        <dsig:DigestValue>QHjMrJhT4xcQxgaND4VSgyb2fQBpqNbhRBYadnfGFUg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="images\images.jpg.ico" size="83294">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WFRpxu6L7sg0h+xbXo5TiGRoZ1Z4AT+XcTxzYqPqmv4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\images.jpg_32x32.png" size="1085">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CsoOcl6JmvP261I4ENmAPig5Hs6LQPVWH7XCY5fdbC0=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="sci-hubAutoLink.exe.config" size="189">
     <hash>
       <dsig:Transforms>

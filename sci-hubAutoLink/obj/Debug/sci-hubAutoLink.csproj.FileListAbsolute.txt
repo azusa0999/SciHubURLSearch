@@ -10,3 +10,17 @@ E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\bin\Debug\sci-hubAutoLink
 E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.application
 E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.exe.manifest
 E:\Source\VisualStudio\sci-hubAutoLink\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.application
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.exe.config
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.exe
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.pdb
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.exe.manifest
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.application
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.exe
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\bin\Debug\sci-hubAutoLink.pdb
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci_hubAutoLink.ScihubVal.resources
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci_hubAutoLink.Properties.Resources.resources
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.csproj.GenerateResource.Cache
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.exe.manifest
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.application
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci-hubAutoLink.csprojResolveAssemblyReference.cache
+C:\Users\aiki6\Documents\GitHub\sci-hubAutoLink\SciHubURLSearch\sci-hubAutoLink\obj\Debug\sci_hubAutoLink.Popup.Help.resources
