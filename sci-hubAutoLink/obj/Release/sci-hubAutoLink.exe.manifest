@@ -42,17 +42,83 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sci-hubAutoLink.exe" size="13768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sci-hubAutoLink.exe" size="124872">
       <assemblyIdentity name="sci-hubAutoLink" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DYRfFBMVglqpdjmkeEVv0/GXDe9FF7vNlcNLK173rdk=</dsig:DigestValue>
+        <dsig:DigestValue>0mnf0FeduJeCN4v1SPIQrGScrZlYLJo/7eow1C6WTfI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\sci-hubAutoLink.resources.dll" size="90624">
+      <assemblyIdentity name="sci-hubAutoLink.resources" version="1.0.0.0" language="en-US" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z50uh6V87nUn0tcIrtA2rheHzw9LMbX1qq21ygX5Boo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja-JP\sci-hubAutoLink.resources.dll" size="90624">
+      <assemblyIdentity name="sci-hubAutoLink.resources" version="1.0.0.0" language="ja-JP" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YO5iCpzXskIpbiiNhN3yAb0WyCVJKQA1GAtct5G80FM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ko-KR\sci-hubAutoLink.resources.dll" size="89088">
+      <assemblyIdentity name="sci-hubAutoLink.resources" version="1.0.0.0" language="ko-KR" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>e6+nKAVXLQkIZ6QfqHTFQaKAMu6fyp6jY+lhcs3X+Yo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\sci-hubAutoLink.resources.dll" size="90112">
+      <assemblyIdentity name="sci-hubAutoLink.resources" version="1.0.0.0" language="zh-Hans" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MrOwRVemvJ/tnGdgCCs7lgHdgSwYLBJC+bZwKGiScHA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="images\images.jpg.ico" size="83294">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WFRpxu6L7sg0h+xbXo5TiGRoZ1Z4AT+XcTxzYqPqmv4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\images.jpg_32x32.png" size="1085">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CsoOcl6JmvP261I4ENmAPig5Hs6LQPVWH7XCY5fdbC0=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="sci-hubAutoLink.exe.config" size="189">
     <hash>
       <dsig:Transforms>

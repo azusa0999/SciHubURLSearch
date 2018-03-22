@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Help));
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.button1 = new System.Windows.Forms.Button();
@@ -37,59 +38,40 @@
             // 
             // linkLabel1
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(52, 270);
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(42, 12);
-            this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "GitHub";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel2
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(53, 288);
+            resources.ApplyResources(this.linkLabel2, "linkLabel2");
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel2.TabIndex = 2;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Blog";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(221, 274);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 26);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "닫기";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tbxText
             // 
-            this.tbxText.Location = new System.Drawing.Point(17, 20);
-            this.tbxText.Multiline = true;
+            resources.ApplyResources(this.tbxText, "tbxText");
             this.tbxText.Name = "tbxText";
             this.tbxText.ReadOnly = true;
-            this.tbxText.Size = new System.Drawing.Size(277, 232);
-            this.tbxText.TabIndex = 4;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 269);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 12);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "링크 :";
             // 
             // Help
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(306, 310);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbxText);
             this.Controls.Add(this.button1);
@@ -99,7 +81,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Help";
-            this.Text = "Help";
             this.ResumeLayout(false);
             this.PerformLayout();
 

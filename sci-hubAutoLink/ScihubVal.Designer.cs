@@ -54,201 +54,119 @@
             // 
             // cbxLinkItem
             // 
-            this.cbxLinkItem.Dock = System.Windows.Forms.DockStyle.Fill;
+            resources.ApplyResources(this.cbxLinkItem, "cbxLinkItem");
             this.cbxLinkItem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxLinkItem.FormattingEnabled = true;
-            this.cbxLinkItem.Location = new System.Drawing.Point(54, 2);
-            this.cbxLinkItem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbxLinkItem.Name = "cbxLinkItem";
-            this.cbxLinkItem.Size = new System.Drawing.Size(272, 20);
-            this.cbxLinkItem.TabIndex = 0;
             this.cbxLinkItem.SelectedIndexChanged += new System.EventHandler(this.cbxLinkItem_SelectedIndexChanged);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "URL";
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(3, 2);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.btnSearch, "btnSearch");
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(155, 31);
-            this.btnSearch.TabIndex = 2;
-            this.btnSearch.Text = "유효한 URL 검색";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 4);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 378F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(466, 498);
-            this.tableLayoutPanel1.TabIndex = 3;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.58442F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.41558F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 130F));
+            resources.ApplyResources(this.tableLayoutPanel2, "tableLayoutPanel2");
             this.tableLayoutPanel2.Controls.Add(this.btnGo, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.cbxLinkItem, 1, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 42);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(460, 26);
-            this.tableLayoutPanel2.TabIndex = 0;
             // 
             // btnGo
             // 
-            this.btnGo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnGo.Location = new System.Drawing.Point(332, 2);
-            this.btnGo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.btnGo, "btnGo");
             this.btnGo.Name = "btnGo";
-            this.btnGo.Size = new System.Drawing.Size(125, 22);
-            this.btnGo.TabIndex = 3;
-            this.btnGo.Text = "기본브라우저로 보기";
             this.btnGo.UseVisualStyleBackColor = true;
             this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.lblGuide);
             this.panel1.Controls.Add(this.tbxCount);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnSearch);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(460, 36);
-            this.panel1.TabIndex = 1;
             // 
             // lblGuide
             // 
-            this.lblGuide.AutoSize = true;
+            resources.ApplyResources(this.lblGuide, "lblGuide");
             this.lblGuide.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.lblGuide.Location = new System.Drawing.Point(164, 12);
             this.lblGuide.Name = "lblGuide";
-            this.lblGuide.Size = new System.Drawing.Size(57, 12);
-            this.lblGuide.TabIndex = 7;
-            this.lblGuide.Text = "확인중....";
             // 
             // tbxCount
             // 
-            this.tbxCount.Location = new System.Drawing.Point(397, 9);
-            this.tbxCount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.tbxCount, "tbxCount");
             this.tbxCount.Name = "tbxCount";
             this.tbxCount.ReadOnly = true;
-            this.tbxCount.Size = new System.Drawing.Size(36, 21);
-            this.tbxCount.TabIndex = 6;
-            this.tbxCount.Text = "0";
-            this.tbxCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(434, 11);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 12);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "회";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(289, 11);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 12);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "검색 남은 횟수 :";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            resources.ApplyResources(this.label4, "label4");
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label4.Location = new System.Drawing.Point(3, 70);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(288, 12);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "URL을 선택하면 하단에 웹페이지 미리보기가 뜹니다";
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.webViewer);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 92);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(460, 372);
-            this.panel2.TabIndex = 3;
             // 
             // webViewer
             // 
-            this.webViewer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webViewer.Location = new System.Drawing.Point(0, 0);
-            this.webViewer.MinimumSize = new System.Drawing.Size(20, 20);
+            resources.ApplyResources(this.webViewer, "webViewer");
             this.webViewer.Name = "webViewer";
-            this.webViewer.Size = new System.Drawing.Size(460, 372);
-            this.webViewer.TabIndex = 0;
             // 
             // panel3
             // 
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Controls.Add(this.linkLabel2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 470);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(460, 25);
-            this.panel3.TabIndex = 4;
             // 
             // linkLabel2
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(369, 7);
+            resources.ApplyResources(this.linkLabel2, "linkLabel2");
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(81, 12);
-            this.linkLabel2.TabIndex = 1;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "프로그램 정보";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // ScihubVal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 498);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "ScihubVal";
-            this.Text = "SCI-HUB 유효한 URL 검색 프로그램";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);

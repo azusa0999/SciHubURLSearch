@@ -86,8 +86,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Popup\Help.en-US.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Help.ja-JP.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Help.ko-KR.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Popup\Help.resx">
       <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Help.zh-Hans.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScihubVal.en-US.resx">
+      <DependentUpon>ScihubVal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScihubVal.ja-JP.resx">
+      <DependentUpon>ScihubVal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScihubVal.ko-KR.resx">
+      <DependentUpon>ScihubVal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ScihubVal.resx">
       <DependentUpon>ScihubVal.cs</DependentUpon>
@@ -101,6 +122,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ScihubVal.zh-Hans.resx">
+      <DependentUpon>ScihubVal.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
