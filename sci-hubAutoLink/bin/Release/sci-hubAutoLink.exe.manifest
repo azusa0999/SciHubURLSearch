@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="sci-hubAutoLink.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="sci-hubAutoLink.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="sci-hubAutoLink" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NGIE6WTPi3eKZVAzN7bkMF4jWTFTYV4xVj8hyxMsSgY=</dsig:DigestValue>
+        <dsig:DigestValue>jXQYh8BGZB66QMfgK6WuwLDU6EJ7EeqVdtsmEQvbbfE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jzpkjZF0xpyVHazEuQ2oOzYRegw7wjvVYQaJbR4BHM8=</dsig:DigestValue>
+        <dsig:DigestValue>KcdLgzzVLkEObB67b9R4oUB4iAmhTW9nL+6Hffc/7L4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,7 +73,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>cO03HP4FuuRQANNSzs+3mDX4R8NrIqe0UiZIIIaI6aA=</dsig:DigestValue>
+        <dsig:DigestValue>GOTPtj4EBSEHh1zLbGov5Nw3A4EswkLh4lhVkfBphAA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -85,7 +85,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UjfwNrTA6lsprohpwW7SgCOM4CE3hgfpWk03YqecFJw=</dsig:DigestValue>
+        <dsig:DigestValue>qEXo3m8JcIymSsz26E+X1UIxX9CyMSLKL9GawfhWTp0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -97,7 +97,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iAnnHQ9xI0Ouw4JygmvhVwIHyEF7EkTYlm7xpH7VrVw=</dsig:DigestValue>
+        <dsig:DigestValue>wyimveiRriW7OVRzcDeNy7vDIfdhhQ2PIuN2BHFpQ1U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
