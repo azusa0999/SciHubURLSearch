@@ -61,15 +61,28 @@ namespace sci_hubAutoLink
         {
             try
             {
-                //Ping 확인
-                Ping pingSender = new Ping();
+                //18.08.16 주석처리. 핑 체크는 보안상 이유로 막아놓는 경우가 많다. 실제로 HTTP로 접속이 되더라도 핑은 안되는 경우도 있음. 다른 방식을 고민.
+                ////Ping 확인
+                //Ping pingSender = new Ping();
+                //Uri uri = new Uri(url);
+                //var ip = Dns.GetHostAddresses(uri.Host)[0];
+                //PingReply reply = pingSender.Send(ip);
+                //if (reply.Status == IPStatus.Success)
+                //{
+                //    this.SetAddItem(url);
+                //}
+                
                 Uri uri = new Uri(url);
-                var ip = Dns.GetHostAddresses(uri.Host)[0];
-                PingReply reply = pingSender.Send(ip);
-                if (reply.Status == IPStatus.Success)
+                HttpWebRequest request = WebRequest.Create(uri) as HttpWebRequest;
+                request.Timeout = 10000;// 서버측 응답에 대한 클라이언트의 대기시간. 타국의 경우이고 느린 서버라는 점에서 대강 디폴트는 10초.
+                request.Method = "HEAD";// 이는 웹사이트여야 한다는 점. 응답받은 HEAD를 가지고 이것이 HTTP프로토콜에 맞게 응답받은 것인지 확인하게 됨.
+                HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+                // 연결이 되었으면 유효한 주소로 인식하고 콤보박스에 해당 URL을 담는다.
+                if(response.StatusCode == HttpStatusCode.OK)
                 {
                     this.SetAddItem(url);
                 }
+
             }
             catch (Exception ex)
             {
