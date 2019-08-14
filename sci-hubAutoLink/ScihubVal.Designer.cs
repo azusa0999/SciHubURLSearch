@@ -145,6 +145,7 @@
             // 
             resources.ApplyResources(this.webViewer, "webViewer");
             this.webViewer.Name = "webViewer";
+            this.webViewer.WebBrowserShortcutsEnabled = false;
             // 
             // panel3
             // 

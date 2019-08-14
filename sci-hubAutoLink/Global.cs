@@ -13,7 +13,7 @@ namespace sci_hubAutoLink
     {
         public string MyGitHubLink = "https://github.com/azusa0999/SciHubURLSearch";
         public string MyBlogLink = "http://jobmg.uy.to";
-        public string scihublink_FirstString = "http://www.sci-hub.";
+        public string scihublink_FirstString = "https://sci-hub.";
         public string alphabat = "abcdefghijklmnopqrstuvwxyz";
     }
 }

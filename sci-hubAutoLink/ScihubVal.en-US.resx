@@ -122,16 +122,22 @@
     <value>46, 2</value>
   </data>
   <data name="cbxLinkItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 20</value>
+    <value>229, 20</value>
   </data>
   <data name="btnSearch.Text" xml:space="preserve">
     <value>Search for valid URLs</value>
   </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 12</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>If you select a URL, Below is a preview of the website.</value>
+  </data>
   <data name="btnGo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>282, 2</value>
+    <value>281, 2</value>
   </data>
   <data name="btnGo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>176, 22</value>
   </data>
   <data name="btnGo.Text" xml:space="preserve">
     <value>View as default browser</value>
@@ -156,12 +162,6 @@
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Remaining Search Count :</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 12</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>If you select a URL, Below is a preview of the website.</value>
   </data>
   <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 12</value>

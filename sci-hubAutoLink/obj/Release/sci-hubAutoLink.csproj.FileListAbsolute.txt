@@ -48,7 +48,6 @@ H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\bin\Release\en-U
 H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\bin\Release\ja-JP\sci-hubAutoLink.resources.dll
 H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\bin\Release\ko-KR\sci-hubAutoLink.resources.dll
 H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\bin\Release\zh-Hans\sci-hubAutoLink.resources.dll
-H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\obj\Release\sci-hubAutoLink.csprojAssemblyReference.cache
 H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\obj\Release\sci_hubAutoLink.Popup.Help.resources
 H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\obj\Release\sci_hubAutoLink.ScihubVal.resources
 H:\Users\aiki6\Documents\GitHub\SciHubURLSearch\sci-hubAutoLink\obj\Release\sci_hubAutoLink.Properties.Resources.resources
