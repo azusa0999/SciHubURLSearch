@@ -138,7 +138,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="sci-hubAutoLink_1_TemporaryKey.pfx" />
-    <None Include="sci-hubAutoLink_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
